@@ -7,6 +7,7 @@ public class Main {
         int pagamento;
 
         while (true) {
+            System.out.println("===== CINEMA =====");
             System.out.print("Quantidade de ingressos: ");
             int qtd = sc.nextInt();
             System.out.print("Tipo (1-Inteira, 2-Meia, 3-Promocional): ");
